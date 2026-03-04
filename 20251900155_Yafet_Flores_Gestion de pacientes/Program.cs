@@ -1,4 +1,7 @@
+using _20251900155_Yafet_Flores_Gestion_de_pacientes.Features;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSingleton<PacienteAppservice>();
 
 // Add services to the container.
 
